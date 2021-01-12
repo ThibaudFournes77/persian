@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.persianLetter{
+  width: 50%;
+}
+
+.board{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*.green{
+  color: green
+}
+
+.red{
+  color: red
+}*/
