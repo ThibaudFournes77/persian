@@ -15,20 +15,6 @@ class FindAnswer extends React.Component {
       }
     }
   
-    /*compareLetters(e, q){
-      //this.setState({currentLetters: e})
-      if(e == q){
-        //var cardColor = "green"
-        console.log("gagné")
-        //return cardColor
-      }
-      else{
-        //var cardColor = "red"
-        console.log("perdu")
-        //return cardColor
-      }
-    }*/
-  
     getId(datas){
       const tabIdLetters = []
       datas.map((data, index) =>
@@ -83,10 +69,7 @@ class FindAnswer extends React.Component {
         guesses: newGuesses,
         won: false,
         buttonClicked: true
-      })
-      /*setTimeout(function(){
-        this.setState({buttonClicked:false});
-      }.bind(this),5); */
+      });
     }
   
     render(){

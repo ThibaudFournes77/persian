@@ -24,15 +24,9 @@ class LetterProposed extends React.Component{
         console.log("perdu")
       }
     }
-  
-    componentWillUnmount(){
-      this.setState({
-        bgColor: 'blue'
-      });
-    }
 
     componentDidUpdate(prevProps) {
-      if(this.props.app.state.buttonClicked !== prevProps.app.state.buttonClicked){
+      if(this.props.app.state.buttonClicked === true){
         this.setState({
           bgColor: 'blue'
         });
